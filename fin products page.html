@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+/*
+#grad1 {
+  height: 100px;
+  background-color: silver; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right top,white,white,white,silver,silver,silver,gray,black); /* Standard syntax (must be last) */
+}
+*/
+<!--Lines-->
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed black;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted black;
+}
+
+<!--Menu bar-->
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+<!--Social bar-->
+
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+<!--Products list-->
+* {
+  box-sizing: border-box;
+  right: 0%;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+<!--Links-->
+
+</style>
+</head>
+<body>
+
+ 
+ <!--Navigation Menu-->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="constructions.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="fin products page.html">Products</a>
+  <a href="contactcon.html#">Contact</a>
+</div>
+
+<div class="icon-bar">
+  <a href="http://www.facebook.com/nngwenyamana" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+  <h2>Sensual Scents</h2>
+  <p><b><i>When you smell good you feel good.</i></b></p>
+  <hr>
+  <hr class="new2">
+  <hr class="new3"><!--Lines-->
+  <!---->
+</div>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> MEN</button>
+  <button class="btn" onclick="filterSelection('cars')"> WOMEN</button>
+  <button class="btn" onclick="filterSelection('people')"> UNISEX</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="all11.jpg" alt="Mountains" style="width:100%">
+      <p> <a href=""> <small>Rose D' Prive </small> </a></p>
+      <p style="font-family:courier;">R1500</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="all111.jpg" alt="Lights" style="width:100%">
+	   <p> <a href=""> <small>Des Tentations</small> </a></p>
+      <p style="font-family:courier;">R750</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="women111.jpg" alt="Nature" style="width:100%">
+      <p> <a href=""> <small>Intense Wood</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <img src="men111.jpg" alt="Car" style="width:100%">
+       <p> <a href=""> <small>Soleil Rose</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="women1.jpg" alt="Car" style="width:100%">
+      <p> <a href=""> <small>Lady President</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="women11.jpg" alt="Car" style="width:100%">
+       <p> <a href=""> <small>Rose Seduction secret</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="Men2.jpg" alt="Car" style="width:100%">
+      <p> <a href=""> <small>Aventos</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="all1.jpg" alt="Car" style="width:100%">
+       <p> <a href=""> <small>Rose D' Prive</small> </a></p>
+      <p style="font-family:courier;">Price R1500</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="Black1.png" alt="Car" style="width:100%">
+      <p> <a href=""> <small>Polo United</small> </a></p>
+      <p style="font-family:courier;">Price R750</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html> 
